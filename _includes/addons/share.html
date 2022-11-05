@@ -11,6 +11,7 @@
 {% capture twitterShareUrl %}https://twitter.com/intent/tweet?url={{ url }}&text={{ description }}{% endcapture %}
 {% capture facebookShareUrl %}https://www.facebook.com/sharer/sharer.php?u={{ url }}{% endcapture %}
 {% capture linkedinShareUrl %}https://www.linkedin.com/sharing/share-offsite/?url={{ url }}{% endcapture %}
+{% capture redditShareUrl %}https://www.reddit.com/sharing/share-offsite/?url={{ url }}{% endcapture %}
 
 {% if page.sharing %}
   {% assign sharing = page.sharing %}
