@@ -11,11 +11,6 @@
 {% capture twitterShareUrl %}https://twitter.com/intent/tweet?url={{ url }}&text={{ description }}{% endcapture %}
 {% capture facebookShareUrl %}https://www.facebook.com/sharer/sharer.php?u={{ url }}{% endcapture %}
 {% capture linkedinShareUrl %}https://www.linkedin.com/sharing/share-offsite/?url={{ url }}{% endcapture %}
-{% capture stumbleuponShareUrl %}https://mix.com/add?url={{ url }}{% endcapture %}
-{% capture deliciousShareUrl %}https://del.icio.us/post?url={{ url }}&title={{ title }}{% endcapture %}
-{% capture diggShareUrl %}http://www.digg.com/submit?url={{ url }}{% endcapture %}
-{% capture redditShareUrl %}https://www.reddit.com/submit?url={{ url }}&title={{ title }}{% endcapture %}
-{% capture pinterestShareUrl %}https://www.pinterest.com/pin/create/button/?url={{ url }}&title={{ title }}&description={{ description }}{% if image %}&media={{ image }}{% endif %}{% endcapture %}
 
 {% if page.sharing %}
   {% assign sharing = page.sharing %}
