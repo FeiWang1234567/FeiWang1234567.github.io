@@ -4,4 +4,4 @@ layout: default
 
 # short bio
 
-I am geologist
+I am a geologist
