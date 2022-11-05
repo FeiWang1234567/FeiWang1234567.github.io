@@ -13,10 +13,10 @@ title: Fei Wang
 subtitle: Ph.D
 
 # left_side:
-#   background_image: "./assets/images/zeratul.jpeg"
-#   background_color: "#F00"
-#   close_button_color: "#F00"
-#   text_color: "#F00"
+   background_image: "./assets/images/zeratul.jpeg"
+   background_color: "#F00"
+   close_button_color: "#F00"
+   text_color: "#F00"
 
 footer:
   copyright_text: ""
