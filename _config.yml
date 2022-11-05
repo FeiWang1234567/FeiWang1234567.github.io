@@ -14,9 +14,9 @@ subtitle: Ph.D
 
 left_side:
    background_image: "./assets/images/zeratul.jpeg"
-   background_color: "#F00"
-   close_button_color: "#F00"
-   text_color: "#F00"
+   #background_color: "#F00"
+   #close_button_color: "#F00"
+   text_color: "#00004d"
 
 footer:
   copyright_text: " "
